@@ -1,0 +1,21 @@
+{
+	"name": "codimd-context",
+	"version": "0.1.0",
+	"description": "Service that reads a codimd sqlite file and generates all the documents as files for LLM context inclusion",
+	"homepage": "https://github.com/possumtech/codimd-context#readme",
+	"bugs": {
+		"url": "https://github.com/possumtech/codimd-context/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/possumtech/codimd-context.git"
+	},
+	"license": "MIT",
+	"author": "@wikitopian",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "node --env-file-if-exists=.env.example --env-file-if-exists=.env index.js",
+		"test": "node --test"
+	}
+}
