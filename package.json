@@ -16,6 +16,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node --env-file-if-exists=.env.example --env-file-if-exists=.env index.js",
+		"lint": "npx @biomejs/biome check .",
+		"lint:fix": "npx @biomejs/biome format --write .",
 		"test": "node --test"
 	}
 }
